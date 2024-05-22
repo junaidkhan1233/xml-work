@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- insert xml declaration -->
+
+
+
+<!-- new xml with doctype with subset -->
+<!DOCTYPE Student [
+    <!ELEMENT Student (name*, age, class,standard, fees)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT class (#PCDATA)>
+    <!ELEMENT standard (#PCDATA)>
+    <!ELEMENT fees (#PCDATA)>
+]>
+<Student>
+    <name>Ali</name>
+    <age>23</age>
+    <class>10</class>
+    <standard>10</standard>
+    <fees>8000</fees>
+</Student>
