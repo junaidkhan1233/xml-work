@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- insert xml declaration -->
+
+
+
+<!-- new xml with doctype with subset -->
+<!DOCTYPE flowershop [
+    <!ELEMENT flowershop (flower*)>
+    <!ELEMENT flower (name,price)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+]>
+<flowershop>
+    <flower>
+        <name>rose</name>
+        <price>90</price>
+    </flower>
+    <flower>
+        <name>lily</name>
+        <price>220</price>
+    </flower>
+    <flower>
+        <name>jasmine</name>
+        <price>320</price>
+    </flower>
+    <flower>
+        <name>sun flower</name>
+        <price>130</price>
+    </flower>
+    <flower>
+        <name>tulip</name>
+        <price>450</price>
+    </flower>
+</flowershop>
+
+
