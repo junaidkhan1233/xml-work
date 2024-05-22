@@ -31,4 +31,16 @@
         <name>tulip</name>
         <price>450</price>
     </flower>
+    <flower>
+        <name>jasmine</name>
+        <price>320</price>
+    </flower>
+    <flower>
+        <name>sun flower</name>
+        <price>130</price>
+    </flower>
+    <flower>
+        <name>tulip</name>
+        <price>450</price>
+    </flower>
 </flowershop>
